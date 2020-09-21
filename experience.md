@@ -7,14 +7,14 @@
   * Threshold region extractor is employed to extract time series of combined 4-D masks, and functional connectivity analysis was performed on the whole set of time series, and a 222*222 matrix was obtained.
   * Feature selection analysis is performed using XGBoost, and the features giving high classification accuracy between neuro-disorder class and healthy class on the test set are kept as our final feature matrix.
   * Features are projected back to obtain the biomarker for Schizophrenia and Autism Spectrum Disorder.
-  * The sample code is available [here](https://graphweb.herokuapp.com/primus/)
+  * The sample code is available [here](https://github.com/Nitin-IITR/my-fmri_biomarker_detection/tree/master)
   
 * **Optimized model for fMRI development data classification using Convolution Neural Network**
   * The project aimed to classify child (ages 3-12) and adult (ages 18-39) fMRI data, which can be obtained from [OpenNeuro](https://openneuro.org/datasets/ds000228/versions/1.0.0)
   * Smoothing of 2D slices of each 3-D functional image was performed using OpenCV.
   * Convolution neural network model was built through Keras to allow parallel computing using Cuda, and 2-D smoothed images were fed for classification.
   * An optimized model is further built with inbuilt smoothing and optimized classification without the need for any extra external storage for 2-D fMRI slices.
-  * The code for optimized CNN model along with other models can be found [here](https://graphweb.herokuapp.com/primus/)
+  * The code for optimized CNN model along with other models can be found [here](https://github.com/Nitin-IITR/fMRI-2D-Convolution)
   
 * **Finger taping condition prediction through fMRI data**
   * The project's objective was to predict the subject's condition inside the fMRI scanner from finger tapping and rest condition. 
@@ -23,7 +23,7 @@
   * Time series extraction was performed on both the mask and mean ICA mask after noise removal using threshold region extractor, and connectivity matrix was obtained by employing Nilearn analysis on time-series data.
   * Using the data points for each condition block, integration and mean features were extracted and used as a single datapoint for classification purposes.
   * SVM with the gaussian kernel is employed to classify these final obtained data after feature extraction, and high accuracy results were obtained.
-  * Code for the above project can be found [here](https://graphweb.herokuapp.com/primus/)
+  * Code for the above project can be found [here](https://github.com/Nitin-IITR/fMRI-finger_tapping)
   
 
 ### Experience on Signal processing, EEG, machine learning
