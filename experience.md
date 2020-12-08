@@ -1,11 +1,13 @@
 ### Experience in  fMRI Software and Toolboxes, Deep Learning, and Machine Learning
-```Neuroimaging```   ```fMRI```  ```Nilearn```  ```CONN```  ```Big Data``` ```XGBoost```  ```Functional Connectivity```  ```Biomarker```
+```Neuroimaging```   ``'MRI```   ```Nilearn```  ```CONN```  ```Big Data``` ```XGBoost```  ```Functional Connectivity```   ```Structural MRI```  ```Biomarker```
 * **Neuroimaging biomarker detection for Schizophrenia and Autism Spectrum Disorder**
   * Objective was to detect the important biomarker for Schizophrenia and Autism Spectrum Disorder by employing the fMRI dataset from SchizConnect and ABIDE dataset.
   * Data preprocessing and further analysis are performed in the CONN toolbox in SPM, and a 4-D ROI mask was created using 2nd level analysis results.
   * ICA, PCA, and Dictionary learning analysis is further performed on the preprocessed dataset using GIFT toolbox and Nilearn, and a different 4-D mask was created.
   * Threshold region extractor is employed to extract time series of combined 4-D masks, and functional connectivity analysis was performed on the whole set of time series, and a 222*222 matrix was obtained.
   * Feature selection analysis is performed using XGBoost, and the features giving high classification accuracy between neuro-disorder class and healthy class on the test set are kept as our final feature matrix.
+  * FreeSurfer analysis is performed on Structural MRI data; subcortical volume (48 features) and cortical region ROI's thickness (68 features) through Desikan-Killiany atlas were used as features.
+  * Weighted Voting classifier was employed to achieve the best classification accuracy using functional final feature matrix and structural MRI features.
   * Features are projected back to obtain the biomarker for Schizophrenia and Autism Spectrum Disorder.
   * The sample code is available [here](https://github.com/Nitin-IITR/my-fmri_biomarker_detection/tree/master)
   
