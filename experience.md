@@ -1,5 +1,5 @@
 ### Experience in  fMRI Software and Toolboxes, Deep Learning, and Machine Learning
-```Neuroimaging```   ``'MRI```   ```Nilearn```  ```CONN```  ```Big Data``` ```XGBoost```  ```Functional Connectivity```   ```Structural MRI```  ```Biomarker```
+```Neuroimaging```   ```MRI```   ```Nilearn```  ```CONN```  ```Big Data``` ```XGBoost```  ```Functional Connectivity```   ```Structural MRI```  ```Biomarker```
 * **Neuroimaging biomarker detection for Schizophrenia and Autism Spectrum Disorder**
   * Objective was to detect the important biomarker for Schizophrenia and Autism Spectrum Disorder by employing the fMRI dataset from SchizConnect and ABIDE dataset.
   * Data preprocessing and further analysis are performed in the CONN toolbox in SPM, and a 4-D ROI mask was created using 2nd level analysis results.
